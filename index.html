@@ -1,0 +1,284 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: hsl(0, 0%, 95%);
+        }
+        .index_container{
+            max-width: 1440px;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            top: 60px;
+            align-items: center;
+            justify-content: center;
+            background-color:  hsl(0, 0%, 95%);
+        }
+        .sedans_container{
+            height: 400px;
+            width: 20%;
+            background-color: hsl(31, 77%, 52%);
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .p_tag1{
+            height: 190px;
+            
+        }
+        .suvs_container{
+            height: 400px;
+            width: 20%;
+            background-color: hsl(184, 100%, 22%);
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .images{
+            width: 100%;
+            object-fit: contain;
+            display: flex;
+            align-items: flex-start;
+            /* justify-content: center; */
+
+        }
+        .luxury_container{
+            height: 400px;
+            width: 20%;
+            background-color: hsl(179, 100%, 13%);
+            padding: 30px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .heading{
+            color: hsl(0, 0%, 95%);
+            font-family: 'Big Shoulders Display';
+            width: 100%;
+        }
+        .center_div{
+            height: 100%;
+            width: 100%;
+        }
+        .paragraph{
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 15px;
+            font-family: 'Lexend Deca';
+            line-height: 1.5rem;
+            
+            
+        }
+        .button_class{
+            height: 70px;
+            width: 100%;
+        }
+        .button_class_sedans{
+            color: hsl(0, 0%, 95%);
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 10px 20px;
+            background-color: hsl(31, 77%, 52%);
+            cursor: pointer;
+            font-family: 'Lexend Deca';
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 25px;
+        }
+        .button_class_suvs{
+            color: hsl(0, 0%, 95%);
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 10px 20px;
+            background-color: hsl(184, 100%, 22%);
+            cursor: pointer;
+            font-family: 'Lexend Deca';
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 25px;
+           
+        }
+        .button_class_luxury{
+            color: hsl(0, 0%, 95%);
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 10px 20px;
+            background-color: hsl(179, 100%, 13%);
+            cursor: pointer;
+            font-family: 'Lexend Deca';
+            font-size: 15px;
+            margin-top: 25px;
+            
+            font-weight: 400;
+            
+        }
+        .link{
+            color: black;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 380px;
+            /* width: 100%; */
+        }
+        .link_para{
+            font-size: 12px;
+            font-weight: 600;
+        }
+       
+        @media only screen and (max-width: 700px){
+            .center_div{
+                width: 100%;
+            }
+            .p_tag1{
+                width: 100%;
+            }
+            .p_tag1 .paragraph{
+                width: 100%;
+                font-size: 12px;
+            }
+            .paragraph{
+                line-height: 1.2rem;
+            }
+            .button_class_sedans{
+                padding: 7px 15px;
+                font-size: 11px;
+                margin-top: 35px;
+            }
+            .button_class_suvs{
+                padding: 7px 15px;
+                font-size: 11px;
+                margin-top: 35px;
+            }
+            .button_class_luxury{
+                padding: 7px 15px;
+                font-size: 11px;
+                margin-top: 35px;
+            }
+        }
+        @media only screen and (max-width: 500px){
+            .index_container{
+                max-width: 375px;
+            }
+            .sedans_container{
+                width: 100%;
+                
+            }
+            .suvs_container{
+                width: 100%;
+                
+            }
+            .luxury_container{
+                
+                width: 100%;
+                
+            }
+            .center_div{
+                width: 100%;
+            }
+            .p_tag1{
+                width: 100%;
+                
+            }
+            .p_tag1 .paragraph{
+                width: 100%;
+                font-size: 10px;
+            }
+            .paragraph{
+                line-height: 1rem;
+            }
+            
+            .button_class_sedans{
+                
+                padding: 5px 10px;
+                font-size: 10px;
+                width: 80px;
+            }
+            .button_class_suvs{
+                
+                padding: 5px 10px;
+                font-size: 10px;
+                width: 80px;
+            }
+            .button_class .button_class_luxury{
+                padding: 5px 10px;
+                font-size: 10px;
+                width: 80px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="index_container">
+        <div class="sedans_container">
+            <div class="images">
+                <img class="image1" src="./images/Copy of icon-sedans.svg" alt="" />
+            </div>
+                <h1 class="heading">SEDANS</h1>
+            <div class="center_div">
+                <div class="p_tag1">
+                    <p class="paragraph">
+                        Choose a sedan for its affordabilityand excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+                    </p>
+                </div>
+                <div class="button_class">
+                    <button class="button_class_sedans">Learn More</button>
+                </div>
+            </div>
+           
+        </div>
+        <div class="suvs_container">
+            <div class="images">
+                <img class="image2" src="./images/Copy of icon-suvs.svg" alt="" />
+            </div>
+            
+            <h1 class="heading">SUVS</h1>
+            <div class="center_div">
+                <div class="p_tag1">
+                    <p class="paragraph">
+                        Take an suv for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.
+                    </p>
+                </div>
+                <div class="button_class">
+                    <button class="button_class_suvs">Learn More</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="luxury_container">
+            <div class="images">
+                <img class="image3" src="./images/copy of icon-luxury.svg" alt="" />
+            </div>
+            
+            <h1 class="heading">LUXURY</h1>
+            <div class="center_div">
+                <div class="p_tag1">
+                    <p class="paragraph">
+                        Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.
+                    </p>
+                </div>
+                <div class="button_class">
+                    <button class="button_class_luxury">Learn More</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="link">
+            <p class="link_para">Click <a href="grid.html">here</a> to head to grid.html</p>
+        </div>
+    </div>
+    
+</body>
+</html>
