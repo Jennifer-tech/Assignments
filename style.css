@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoa UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  body{
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #5a3502, #735912ca);
+    padding: 10px;
+  }
+  .container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius:25px;
+    background: linear-gradient(180deg, #735912ca, #5a3502)
+  }
+  .container .header{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  .container .header::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #5c3e1e, #9b5b)
+  }
+  .container form .form-box{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .form-details{
+      padding: 0 10px 10px 0;
+  }
+  label{
+      font-weight: 600;
+      padding-right: 20px;
+  }
+  .btn{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      
+      
+  }
+  .btn .reg{
+      display: flex;
+      justify-content: center;
+      width: 40%;
+      padding: 7px;
+      margin-top: 5px;
+      border-radius: 5px;
+      background-color: white;
+      border: none;
+      text-decoration: none;
+      outline: none;
+      font-size: 15px;
+      color: #5a3502;
+
+  }
+  .reg:hover {
+    cursor: pointer;
+    background-color: #735912ca;
+    color: white;
+  }
+  .account{
+    
+      padding-top: 10px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+  }
+  .account .account_p a{
+    text-decoration: none;
+    
+  }
+  .paragraph{
+    font-size: 20px;
+    font-weight: 600;
+  }
