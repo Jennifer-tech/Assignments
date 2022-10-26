@@ -1,0 +1,42 @@
+.header ul li{
+    font-family: century;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+.about_container .profile{
+    width: 300px;
+    height: 175px;
+}
+#intro{
+    height: 100%;
+}
+#intro .intro_heading{
+    font-size: 1.5rem;
+}
+#intro .intro_p{
+    padding: 20px;
+}
+.gallery img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+
+}
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
+.footer{
+    font-size: 12px;
+}
